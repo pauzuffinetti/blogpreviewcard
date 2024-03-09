@@ -4,12 +4,23 @@
     display: flex;
     justify-content: center;
     max-width: 330px;
+    height: 60%;
   }
   .bigcontainer .cardcontainer {
     max-width: 80%;
   }
   .bigcontainer .cardcontainer .text {
     flex-wrap: wrap;
+  }
+}
+@media only screen and (max-width: 1440px) {
+  .bigcontainer {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+  }
+  .bigcontainer .cardcontainer {
+    max-width: 100%;
   }
 }
 * {
